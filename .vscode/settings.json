@@ -1,0 +1,41 @@
+{
+    "css.validate": false,
+    "debug.inlineValues": true,
+    "debug.openExplorerOnEnd": true,
+    "debug.allowBreakpointsEverywhere": false,
+    // 机器性能高的话，请把这个配置项复制入【用户级】的 vscode 配置文件里。
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.tabSize": 4,
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.wordWrap": "on",
+    "editor.detectIndentation": false,
+    "eslint.enable": true,
+    "explorer.autoReveal": true,
+    "files.defaultLanguage": "javascript",
+    "files.eol": "\n",
+    "files.exclude": {
+        ".sass-cache": true,
+        ".tmp": true,
+        "node_modules/.bin": true,
+        "src/.dev_dbg": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "gitlens.currentLine.enabled": false,
+    "git.ignoreLimitWarning": true,
+    "html.validate.scripts": false,
+    "javascript.validate.enable": false,
+    "prettier.singleQuote": true, // 强制单引号
+    "prettier.trailingComma": "all", // 尽可能控制尾随逗号的打印
+    "projectManager.groupList": true,
+    "projectManager.sortList": "Recent",
+    "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+    "scss.validate": false,
+    "stylelint.enable": false,
+    "workbench.editor.closeOnFileDelete": false,
+    "workbench.editor.revealIfOpen": true,
+    "vsicons.presets.angular": false
+}

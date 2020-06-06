@@ -1,4 +1,4 @@
-# Webpack Manifest Plugin [![Build Status](https://travis-ci.org/danethurber/webpack-manifest-plugin.svg?branch=master)](https://travis-ci.org/danethurber/webpack-manifest-plugin)  [![codecov](https://codecov.io/gh/danethurber/webpack-manifest-plugin/badge.svg?branch=master)](https://codecov.io/gh/danethurber/webpack-manifest-plugin?branch=master) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/webpack-manifest-plugin#)
+# Webpack Manifest Plugin [![Build Status](https://travis-ci.org/danethurber/webpack-manifest-plugin.svg?branch=master)](https://travis-ci.org/stuartZhang/webpack-manifest-plugin)  [![codecov](https://codecov.io/gh/stuartZhang/webpack-manifest-plugin/badge.svg?branch=master)](https://codecov.io/gh/stuartZhang/webpack-manifest-plugin?branch=master) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/webpack-manifest-plugin#)
 
 
 Webpack plugin for generating an asset manifest.
@@ -56,7 +56,7 @@ module.exports = {
 Type: `String`<br>
 Default: `manifest.json`
 
-By default the plugin will emit `manifest.json` to your output directory. Can override with an absolute path. 
+By default the plugin will emit `manifest.json` to your output directory. Can override with an absolute path.
 
 ### `options.publicPath`
 
@@ -155,4 +155,4 @@ Is required by a module. Cannot be `true` if `isAsset` is `false`.
 
 ## License
 
-MIT © [Dane Thurber](https://github.com/danethurber)
+MIT © [Stuart Zhang](https://github.com/stuartZhang)
